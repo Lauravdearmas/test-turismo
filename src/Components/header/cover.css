@@ -1,0 +1,190 @@
+*:before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cover {
+    background-image: url(../../assets/resources/plane.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 33rem;
+    background-position: top ;
+    background-size: 85em;
+    
+}
+
+.icon-lenguage {
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+svg {
+    fill: white;
+}
+
+.nav-test {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 5%;
+    height: 100px;
+}
+
+.logo-test {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.logo {
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+    padding: 0;
+    height: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.nav-menu {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.nav-menu-items  {
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+
+.list-item-nav {
+    margin-left: 1.5em;
+    
+}
+
+a.list-item-nav {
+    position:relative;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 01.5px;
+}
+
+a.list-item-nav:after {
+    content: "";
+    position: absolute;
+    background-color: white;
+    height: 3px;
+    width: 100%;
+    left: 0;
+    bottom: -5px;
+    transition: 0.3s;
+    display: none;
+}
+
+a.list-item-nav:hover:after {
+    width: 100%;
+    display: block;
+    color: white;
+}
+
+
+.lenguage-test {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 1em;
+    padding: 0;
+}
+
+p.text-lenguage {
+    margin: 0;
+    padding: 2% 1%;
+    letter-spacing: 01.5px;
+}
+
+.drop-list  {
+    display: none;
+
+}
+
+.menu-drop {
+    background-color: white;
+    border-radius: 20px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 150px;
+    margin: 10px;
+    padding: 20px;
+    margin-top: 2%;
+    position: absolute;
+    margin-left: -200px;
+}
+
+.drop-list:hover {
+    display: flex;
+}
+
+
+
+
+
+
+
+
+/* Title ---------------------------------------------------*/
+
+.container-title {
+    
+    width: 50%;
+    color: white;
+    margin-left: 7%;
+    margin-top: 90px;
+}
+
+h1.title-page {
+    font-size: 2em;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+
+h4.text-title {
+    margin: 0;
+    padding: 0;
+    font-weight: 200;
+    width: 70%;
+    font-size: 1.2em;
+}
+
+/* cta ---------------------------------------------------*/
+
+.container-cta {
+margin-top: 7%;
+}
+
+.cta {
+    background-color: #fb3640;
+    border-radius: 50px;
+    padding: 8px 50px;
+    color: white;
+}
+
+

@@ -1,0 +1,81 @@
+.offers-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+
+}
+
+.cover-offer-one {
+    background-image: url("../../assets/resources/moscow.jpg") ;
+	width: 15rem;
+    height: 12rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-position: left 20%;
+    background-repeat: no-repeat;
+    background-size: 25em;
+    margin: 4% 0 0 0 ;
+    border-radius: 25px;
+    border: 1px solid #0a2463;
+    margin-right: 5%;
+    box-shadow: 5px 5px 8px #bfbdbd;
+}
+
+.cover-offer-two {
+    background-image: url("../../assets/resources/puerto-rico.jpg") ;
+	width: 15rem;
+    height: 12rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-position: left 20%;
+    background-repeat: no-repeat;
+    background-size: 18em;
+    margin: 4% 0 0 0 ;
+    border-radius: 20px;
+    border: 1px solid #0a2463; 
+    margin-right: 5%;
+    box-shadow: 5px 5px 8px #bfbdbd;
+}
+
+
+.cover-offer-three {
+    background-image: url("../../assets/resources/honduras.jpg") ;
+	width: 15rem;
+    height: 12rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-position: left 20%;
+    background-repeat: no-repeat;
+    background-size: 18em;
+    margin: 4% 0 0 0 ;
+    border-radius: 20px;
+    border: 1px solid #0a2463;
+    box-shadow: 5px 5px 8px #bfbdbd;
+}
+
+.text-card {
+    background-color: black;
+    height: 30%;
+    margin-top: 5%;
+    width: 100%;
+    border-radius: 0 0 20px 20px;
+    color: white;
+    padding: 10px 15px;
+    opacity: 0.7;
+}
+
+.title-offer {
+    margin: 0;
+    font-weight: 200;
+}
+
+.subtitle-offer {
+    text-align: end;
+    padding: 5px;
+    margin: 0;
+   
+}
