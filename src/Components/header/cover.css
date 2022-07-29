@@ -116,6 +116,37 @@ p.text-lenguage {
     letter-spacing: 01.5px;
 }
 
+.drop-list  {
+    display: none;
+
+}
+
+.menu-drop {
+    background-color: white;
+    border-radius: 20px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 150px;
+    margin: 10px;
+    padding: 20px;
+    margin-top: 2%;
+    position: absolute;
+    margin-left: -200px;
+}
+
+.drop-list:hover {
+    display: flex;
+}
+
+
+
+
+
+
+
 
 /* Title ---------------------------------------------------*/
 

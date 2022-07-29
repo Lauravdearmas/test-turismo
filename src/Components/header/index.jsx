@@ -1,9 +1,11 @@
 import React from "react";
 import './cover.css'
-
+import { useState } from "react";
+ 
 
 function NavTest() {
   
+    
 
   return (
     <div className="cover">
@@ -14,9 +16,26 @@ function NavTest() {
             <div className="nav-menu">
                 <div className="lenguage-test">
                     <p className="text-lenguage">en</p>
-                    <div className="icon-lenguage">
+                    <div className="icon-lenguage"
+                      >
                         <svg viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg"  width="15" height="15" ><path d="M81.846 25.388a6.024 6.024 0 0 0-8.45.768L48 56.626l-25.396-30.47a5.999 5.999 0 1 0-9.211 7.688l30.002 36.002a5.997 5.997 0 0 0 9.211 0l30.002-36.002a6.008 6.008 0 0 0-.762-8.456z"/></svg>
                     </div>
+                    <div class="drop-list">
+                                <ul class="menu-drop">
+                                    <li class="list-menu-drop-resource"><a class="item-drop">RU - Russian</a></li>
+                                    <li class="list-menu-drop-resource"><a class="item-drop">DE - German</a></li>
+                                    <li class="list-menu-drop-resource"><a class="item-drop">FR - French</a></li>
+                                </ul>
+                    </div>
+
+
+
+
+
+
+
+
+
                 </div>
                 <div className="nav-menu-items">
                         <a href="/" className="list-item-nav">Home</a>
