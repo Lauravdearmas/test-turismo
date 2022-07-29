@@ -12,3 +12,82 @@ a {
 }
 
 
+.container-title-offer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+.title-offers {
+  color: #257ea2;
+  font-weight: 400;
+  width: 7%;
+  margin-left: 5%;
+  
+}
+
+.line-offers {
+  width: 90%;
+  height: .5px;
+  margin-right: 5%;
+  background-color: #257ea2;
+}
+
+
+.first-container-offers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 5%;
+  width: 60%;
+}
+
+/*  search bar ------------------*/
+
+.search-bar {
+height: 100px;
+width: 100%;
+display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 4%;
+  padding-right: 6%;
+  margin-bottom: 7%;
+}
+
+.search-box{
+  outline: none;
+width: 30%;
+padding-right: 20px;
+font-weight: 200;
+color: #257ea2;
+font-size: 14px;
+background: none;
+border: none;
+height: 30px;
+text-align: center;
+}
+
+.line {
+  width: 30%;
+  height: .5px;
+  margin: 0 10px  10px 10px;
+  background-color: #257ea2;
+}
+
+/*  sidebar  ------------------*/
+
+.container-general-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu {
+  width: 40%;
+  background-color: greenyellow;
+}

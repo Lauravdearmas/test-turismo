@@ -14,14 +14,18 @@ function App() {
       <NavTest />
 
       <div className='menu-offers-container'>
-          <div>
-            <h2>Offers</h2> 
+          <div className='container-title-offer'>
+            <h2 className="title-offers">Offers</h2> 
+            <div className='line-offers'>
+              
+            </div>
           </div>
-          <div>
-            <div>
+          <div className='container-general-menu'>
+            <div className='first-container-offers'>
               <OfferTest />
               <div className='search-bar'>
-                <input className='' type="text" />
+                <input className='search-box' type="text" />
+                <div className="line"></div>
                 <label>Chosen destination</label>
               </div>
             </div>
