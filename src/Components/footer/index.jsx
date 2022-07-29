@@ -1,5 +1,7 @@
 import React from "react";
 import './footer.css'
+import { AiFillTwitterCircle, AiFillInstagram } from 'react-icons/ai';
+import { MdFacebook } from 'react-icons/md';
 
 
 function FooterTest() {
@@ -7,66 +9,77 @@ function FooterTest() {
 
   return (
     <div className="footer-container">
-       <div>
+       <div className="footer-title-central">
             <h4>Follow Us</h4>
        </div>
-       <div>
-            <div><a href="/">1</a></div>
-            <div><a href="/">2</a></div>
-            <div><a href="/">3</a></div>
+       <div className="socialmedia">
+
+            <div><a className="item-socialmedia" href="/"><MdFacebook /></a></div>
+            <div><a className="item-socialmedia" href="/"><AiFillInstagram /></a></div>
+            <div><a className="item-socialmedia" href="/"><AiFillTwitterCircle /></a></div>
        </div>
-       <div>
-            <div>
+       <div className="container-links-footer">
+            <div className="container-links-footer-one">
                 <h5 className="title-item-footer">About Us</h5>
-                <p>We want to help passangers to reach their destinations</p>
+                <p className="text-footer">We want to help passangers </p>
+                <p className="text-footer">to reach their destinations</p>
             </div>
-            <div>
-                <div>
-                    <h5 className="title-item-footer">Explore</h5>
+            <div className="container-links-footer-two">
+                <div className="section-item">
+                    
                     <div>
                         <ul>
-                            <li>
+                            <li className="title-item-footer">
+                            Explore
+                            </li>
+                            <li className="item-footer">
                                 <a href="/">Home</a>
                             </li>
-                            <li>
+                            <li className="item-footer">
                                 <a href="/">Destinations</a>
                             </li>
-                            <li>
+                            <li className="item-footer">
                                 <a href="/">About</a>
                             </li>
                         </ul>
                     </div>
                 </div>
-                <div>
-                    <h5 className="title-item-footer">Information</h5>
+                <div className="section-item">
+                    
                     <div>
                         <ul>
-                            <li>
+                            <li className="title-item-footer">
+                            Information
+                            </li>
+                            <li className="item-footer">
                                 <a href="/">More search</a>
                             </li>
-                            <li>
+                            <li className="item-footer">
                                 <a href="/">Blog</a>
                             </li>
-                            <li>
+                            <li className="item-footer">
                                 <a href="/">Testimonials</a>
                             </li>
                         </ul>
                     </div>
                 </div>
-                <div>
-                    <h5 className="title-item-footer">Services</h5>
+                <div className="section-item">
+                    
                     <div>
                         <ul>
-                            <li>
+                            <li className="title-item-footer">
+                                Services
+                            </li>
+                            <li className="item-footer">
                                 <a href="/">Manage My Booking</a>
                             </li>
-                            <li>
-                                <a href="/">Chekin</a>
+                            <li className="item-footer">
+                                <a href="/">Cheking</a>
                             </li>
-                            <li>
+                            <li className="item-footer">
                                 <a href="/">Hotel</a>
                             </li>
-                            <li>
+                            <li className="item-footer">
                                 <a href="/">Cars</a>
                             </li>
                         </ul>
